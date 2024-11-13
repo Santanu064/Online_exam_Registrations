@@ -1,0 +1,35 @@
+
+.navbar-hedding{
+    text-decoration: none;
+    line-height: 0;
+    color: rgb(233, 233, 215);
+    width: 60%;
+    text-align: center;
+}
+.bg-body-tertiary{
+    background-color:rgb(120, 120, 120) !important;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    gap: 3px;
+
+}
+.bi{
+    margin-left: 15px;
+}
+.nav-link{
+    padding-left: 1px;
+    color: black;
+}
+
+.nav-last{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+   
+}
+.nav-item:last-child{
+    margin-right: 15px;
+}
