@@ -50,6 +50,7 @@
 .bodySections{
     width: 100%;
     height: 80vh;
+    min-height: fit-content;
     padding-top: 50px;
     background-color: #fdf0d5;
     display: flex;
@@ -64,7 +65,8 @@ min-height: fit-content;
 border: 1px solid #CDCDCD;
 box-shadow: 0px 0px 7px 0px;
 border-radius: 5px;
-padding: 0px 10px 20px 10px;;
+padding: 0px 10px 20px 10px;
+margin-bottom: 15px;
 }
 .accordion-button{
     width: 300px;
@@ -79,8 +81,6 @@ padding: 0px 10px 20px 10px;;
     margin-left: 0px;
     margin-right: 10px;
 }
-
-
 .middle_part{
     width: 40%;
     height: fit-content;
@@ -91,8 +91,54 @@ padding: 0px 10px 20px 10px;;
 }
 
 
+.Right_part{
+    width: 27%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
 
+.upper_right{
+    width: 100%;
+    height: fit-content;
+    min-height: fit-content;
+    background-color: transparent;
+    border: 1px solid #CDCDCD;
 
+}
+.upper_right > h4{
+border: 1px solid #CDCDCD;
+background-color: #efefef;
+padding: 10px;
+}
+.Lower_right{
+    width: 100%;
+    height: fit-content;
+    min-height: fit-content;
+    background-color: transparent;
+    border: 1px solid #CDCDCD;
+    margin-bottom: 10px;
+}
+.Lower_right > h4{
+    border: 1px solid #CDCDCD;
+    background-color: #efefef;
+    padding: 10px;
+    }
+    .form-check {
+        display: flex !important;
+        justify-content: center;
+    }
+    .col-12{
+        display: flex;
+        justify-content: center;
+    }
+    .btn-primary{
+        background-color: #c1121f;
+        border: none;
+    }
 .footer{
     width: 100%;
     height: 30vh;
