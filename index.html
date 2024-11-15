@@ -142,7 +142,14 @@
  
 </div>
 
-<div class="middle_part">
+<div class="middle_part" style="background-color: #fdf0d5;">
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand " style="color: white;">Already Registered</a>
+      <button class="btn btn-outline-success"  type="button">New Registration</button>
+    </div>
+  </nav>
+
 
 
   <form class="row g-3">
@@ -151,16 +158,16 @@
       <input type="email" class="form-control" id="inputEmail4">
     </div>
     <div class="col-md-6">
+      <label for="inputNumber10" class="form-label">Mobile number</label>
+      <input type="number" class="form-control" id="inputNumber10">
+    </div>
+    <div class="col-md-6">
       <label for="inputPassword4" class="form-label">Password</label>
       <input type="password" class="form-control" id="inputPassword4">
     </div>
-    <div class="col-12">
-      <label for="inputAddress" class="form-label">Address</label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-    </div>
-    <div class="col-12">
-      <label for="inputAddress2" class="form-label">Address 2</label>
-      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Confirm password </label>
+      <input type="password" class="form-control" id="inputPassword4">
     </div>
     <div class="col-md-6">
       <label for="inputCity" class="form-label">City</label>
@@ -168,10 +175,7 @@
     </div>
     <div class="col-md-4">
       <label for="inputState" class="form-label">State</label>
-      <select id="inputState" class="form-select">
-        <option selected>Choose...</option>
-        <option>...</option>
-      </select>
+      <input type="text" id="inputState" class="form-control">
     </div>
     <div class="col-md-2">
       <label for="inputZip" class="form-label">Zip</label>
@@ -181,7 +185,7 @@
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="gridCheck">
         <label class="form-check-label" for="gridCheck">
-          Check me out
+          i agree
         </label>
       </div>
     </div>
