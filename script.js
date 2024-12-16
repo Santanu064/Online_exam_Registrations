@@ -1,9 +1,9 @@
 import { LogUser } from "./Api/api.js";
-function openReg() {
-    window.location.href="./Registration/RegistrataionFrom.html";
-}
 
-// script.js
+document.querySelector('#New_Reg_btn').addEventListener('click',()=>{
+window.location.href = "./Registration/RegistrataionFrom.html";
+})
+
 
     const form = document.getElementById("loginForm"); // Select the form by its ID
     form.addEventListener("submit",async function(e) {
@@ -22,10 +22,9 @@ function openReg() {
         };
 
         // Log the form data as an object
-        console.log("RegistrationData:", LogData);
-        console.log();
+        // console.log("RegistrationData:", LogData);
+        //  form validation 
         
-        
-        // You can add additional logic here, such as form validation or sending the data to a server
+        // sending the data to a server
         await LogUser(LogData)
     });

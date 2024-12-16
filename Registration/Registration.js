@@ -22,11 +22,12 @@ form.addEventListener("submit", async function (e) {
     collage: document.getElementById("inputCollage").value,
     programeName: document.getElementById("inputProgrameName").value,
     collageCode: document.getElementById("inputCollageCode").value,
+    Awar_name: document.getElementById("inputAwar_name").value,
     aggree: document.getElementById("gridCheck").checked,
   };
 
   // Log the form data as an object
-//   console.log("RegistrationData:", formData);
+  // console.log("RegistrationData:", formData);
 
 // form validation
 
@@ -34,5 +35,4 @@ form.addEventListener("submit", async function (e) {
 
 //  sending the data to a server
 await addUser(formData);
-  console.log(  )
 });
