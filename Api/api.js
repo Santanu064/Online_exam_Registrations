@@ -1,5 +1,5 @@
 
-const url = "http://localhost:3000";
+const url = "online-registration-backend-six.vercel.app";
 
 export const addUser = async (data) => {
   try {
