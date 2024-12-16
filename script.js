@@ -23,6 +23,8 @@ function openReg() {
 
         // Log the form data as an object
         console.log("RegistrationData:", LogData);
+        console.log();
+        
         
         // You can add additional logic here, such as form validation or sending the data to a server
         await LogUser(LogData)

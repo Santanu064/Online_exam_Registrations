@@ -13,7 +13,13 @@ export const addUser = async (data) => {
 export const LogUser = async (data) => {
 try {
  const res = await axios.post(`${url}/UserLogin`, data);
- console.log(res);
+console.log(res);
+if (res) {
+  //rendering
+  localStorage.setItem("testObject", JSON.stringify(res.data));
+  window.location.href = "index.html";
+}
+
  
 } catch (error) {
   console.log("Error while calling Logdata Api", error.message);
