@@ -1,5 +1,5 @@
 
-const url = "online-registration-backend-six.vercel.app";
+const url = "online-reg-backend-mko9.vercel.app";
 
 export const addUser = async (data) => {
   try {
