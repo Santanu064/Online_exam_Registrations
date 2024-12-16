@@ -19,6 +19,38 @@
     font-weight: 500;
     gap: 3px;
 }
+.bi{
+    margin-left: 15px;
+}
+.nav{
+    --bs-nav-link-hover-color: #fdf0d5 !important;
+}
+.nav-link{
+    padding-left: 1px;
+    color: #fff;
+}
+
+.nav-last{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+   
+}
+.nav-item:last-child{
+    margin-right: 15px;
+}
+.nav-item svg {
+    color: white; 
+}
+ .nav-link:hover {
+    color: #ff4f4f; 
+    
+}
+
+
+
+
+
 .row{
     
     margin-left: 0px;
@@ -40,4 +72,32 @@
 }
 .form-control{
     background-color: #0f0d0d2e;
+}
+.footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #003049;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+.border-primary {
+    box-shadow: 5px 1px 20px 1px;
+}
+.card-header{
+    font-size: 21px;
+    font-weight: 700;
+    padding: 5px 15px;
+    color: antiquewhite;
+}
+.card{
+    background-color: transparent;
+}
+.card-text{
+    color: blanchedalmond;
+}
+.footer_list_items{
+    
+    color: aliceblue;
 }

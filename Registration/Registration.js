@@ -34,4 +34,5 @@ form.addEventListener("submit", async function (e) {
 
 //  sending the data to a server
 await addUser(formData);
+  console.log(  )
 });
