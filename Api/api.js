@@ -1,5 +1,5 @@
 
-const url = "online-reg-backend-mko9.vercel.app";
+const url = "http://localhost:3000";
 
 export const addUser = async (data) => {
   try {
@@ -22,8 +22,6 @@ if (res) {
   localStorage.setItem("testObject", JSON.stringify(res.data));
   window.location.href = "homepage/homepage.html";
 }
-
- 
 } catch (error) {
   console.log("Error while calling Logdata Api", error.message);
   
